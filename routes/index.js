@@ -15,8 +15,7 @@ var connection = mysql.createConnection({
   host: 'us-cdbr-ea-06.clsteardb.net',
   user: 'b452bcf0030cca',
   password: 'e9c32485',
-  database: 'heroku_13f439f45487835',
-  port: "3308",
+  database: 'heroku_13f439f45487835'
 });
 connection.connect(function(err){
   if(!err){
