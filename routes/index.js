@@ -6,17 +6,17 @@ var fs = require('fs');
 
 
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'youthcamping',
-  port: "3308",
+//   host: 'localhost',
+//   user: 'root',
+//   password: '',
+//   database: 'youthcamping',
+//   port: "3308",
 
-  // host: 'us-cdbr-east-02.cleardb.com',
-  // user: 'b3b7e948eb2743',
-  // password: 'e5c200c8',
-  // database: 'heroku_417645125582a1e',
-  // port: "3306",
+  host: 'us-cdbr-ea-06.clsteardb.net',
+  user: 'b452bcf0030cca',
+  password: 'e9c32485',
+  database: 'heroku_13f439f45487835',
+  port: "3306",
 });
 connection.connect(function(err){
   if(!err){
